@@ -4,8 +4,8 @@ import React from "react";
 function Projects() {
   return (
     <>
-      <div className="flex md:flex-row flex-col text-white  mx-auto justify-center space-x-8 -mt-8 h-72 my-32">
-        <div className="project-one-background bg-center bg-cover flex flex-col place-items-center text-center justify-end border-white border-8 md:w-72 md:h-96 pb-6">
+      <div className="flex md:flex-row flex-col text-white  mx-auto justify-center space-x-8 -mt-12 h-72 my-32">
+        <div className="project-one-background bg-center bg-cover flex flex-col place-items-center text-center justify-end border-ecffSecondary border-8 md:w-72 md:h-96 pb-6">
           <h3 className="text-lg font-bold">Project 2</h3>
           <p className="text-sm text-white">
             lorem ipsum dolor sit amet, consectetur adipiscing
@@ -16,7 +16,7 @@ function Projects() {
             </a>
           </Link>
         </div>
-        <div className="project-two-background bg-center bg-cover flex flex-col place-items-center text-center justify-end border-white border-8 md:w-72 md:h-96 pb-6">
+        <div className="project-two-background bg-center bg-cover flex flex-col place-items-center text-center justify-end border-ecffSecondary border-8 md:w-72 md:h-96 pb-6">
           <h3 className="text-lg font-bold">Project 2</h3>
           <p className="text-sm text-white">
             lorem ipsum dolor sit amet, consectetur adipiscing
@@ -27,7 +27,7 @@ function Projects() {
             </a>
           </Link>
         </div>
-        <div className="project-three-background bg-center bg-cover flex flex-col place-items-center text-center justify-end border-white border-8 md:w-72 md:h-96 pb-6">
+        <div className="project-three-background bg-center bg-cover flex flex-col place-items-center text-center justify-end border-ecffSecondary border-8 md:w-72 md:h-96 pb-6">
           <h3 className="text-lg font-bold">Project 2</h3>
           <p className="text-sm text-white">
             lorem ipsum dolor sit amet, consectetur adipiscing

@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import MainHeader from "../components/Header";
 import AboutUs from "../components/Homepage/AboutUs";
 import HeroSection from "../components/Homepage/HeroSection";
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <Projects />
       <AboutUs />
+      <Footer />
     </>
   );
 }

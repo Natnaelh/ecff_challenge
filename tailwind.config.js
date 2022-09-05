@@ -26,7 +26,16 @@ module.exports = {
       serif: ["Merriweather", "serif"],
     },
 
-    extend: {},
+    extend: {
+      colors: {
+        ecffBrown: "#810102",
+        ecffSecondary: "#F3F1E7",
+        footerBackgroundColor: "#590000",
+        footerBackgroundColorDark: "#450000",
+        textblack: "#242829",
+        copyrightTextColor: "#D7D7D7",
+      },
+    },
   },
   plugins: [],
 };
