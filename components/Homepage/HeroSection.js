@@ -3,18 +3,18 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="flex justify-end place-items-center mx-auto h-screen bg-scroll bg-cover hero-background">
-      <div className="flex flex-col p-5 text-white mt-4 text-right">
-        <h3 className="text-white text-right font-bold text-2xl">
+    <div className="flex justify-end place-items-center mx-auto h-screen bg-scroll bg-blend-darken bg-opacity-50 bg-cover hero-background">
+      <div className="flex flex-col p-8 w-82 text-white  text-right">
+        <h2 className="text-white text-right font-bold text-4xl">
           Sustainability is Our Core Principle
-        </h3>
-        <p className="text-white tex-center">
+        </h2>
+        <p className="text-white text-right place-self-end inline w-1/2">
           lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt. lorem ipsum dolor sit amet.
+          eiusmod tempor incididunt.
         </p>
         <Link href="/">
           <a>
-            <h3 className="text-white text-right hover:text-yellow-600 inline font-serif font-bold text-lg underline">
+            <h3 className="text-white text-right inline hover:text-ecffSecondary underline underline-offset-2 decoration-2  font-monospace font-bold hover:font-bold text-xl ">
               Learn More
             </h3>
           </a>

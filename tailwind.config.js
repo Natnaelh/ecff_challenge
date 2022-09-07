@@ -35,6 +35,12 @@ module.exports = {
         textblack: "#242829",
         copyrightTextColor: "#D7D7D7",
       },
+      height: {
+        128: "32rem",
+      },
+      width: {
+        130: "35rem",
+      },
     },
   },
   plugins: [],

@@ -11,8 +11,8 @@ export default function Navabr() {
     { title: "CONTACT US", path: "/" },
   ];
   return (
-    <nav className="w-full fixed bg-transparent left-0 top-0 ease-in duration-100 mx-auto z-10">
-      <div className="hidden justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+    <nav className="fixed bg-footerBackgroundColor bg-opacity-50 left-0 top-0 ease-in duration-100 mx-auto  z-10">
+      <div className="hidden px-4 mx-auto md:items-center md:w-screen md:flex md:justify-between md:px-12">
         {/* Logo */}
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
