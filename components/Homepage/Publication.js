@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Publication() {
   return (
-    <div className="my-32 md:my-56 text-white bg-white">
+    <div className="my-32 md:mt-48 text-white bg-white">
       <h1 className="text-ecffBrown font-bold text-center text-5xl">
         Publications
       </h1>

@@ -34,6 +34,7 @@ module.exports = {
         footerBackgroundColorDark: "#450000",
         textblack: "#242829",
         copyrightTextColor: "#D7D7D7",
+        testimonyTextColor: "rgba(36, 40, 41, 0.5)",
       },
       height: {
         128: "32rem",

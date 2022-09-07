@@ -3,9 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const imageUrl =
-  " https://images.unsplash.com/photo-1629008642899-178df6fc5f2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80";
-
+const imageUrl = "/images/crcoffee.jpg";
 function AboutUs() {
   return (
     <div
