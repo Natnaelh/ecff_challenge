@@ -10,9 +10,10 @@ function AboutUs() {
       className="flex mt-22 flex-col mx-auto bg-ecffSecondary space-y-3 md:mx-auto md:justify-center 
     md:items-center md:my-8 md:flex-row md:space-x-32 md:h-128 md:space-y-0"
     >
-      <div className=" justify-center items-center md:-mb-48 md:w-1/2">
-        <div className="relative pr-2 ml-24 hidden md:block bg-ecffBrown  ">
+      <div className=" justify-center items-center md:-mb-48 ">
+        <div className="pr-2 ml-24 hidden md:flex md:justify-center md:items-center bg-ecffBrown  ">
           <Image
+            className="md:shrink-0"
             objectFit="cover"
             alt="Hand of farmers holding cherries coffee bean on hand"
             src={imageUrl}
