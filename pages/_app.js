@@ -1,11 +1,11 @@
 import Footer from "../components/Footer";
-import Navabr from "../components/NavBar";
+import Navbar from "../components/Navbar";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navabr />
+      <Navbar />
       <Component {...pageProps} />
       <Footer />
     </>
