@@ -38,9 +38,16 @@ module.exports = {
       },
       height: {
         128: "32rem",
+        150: "50rem",
       },
       width: {
-        130: "35rem",
+        102: "28rem",
+      },
+      blur: {
+        xs: "2px",
+      },
+      backdropOpacity: {
+        1: ".0001",
       },
     },
   },
