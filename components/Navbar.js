@@ -20,7 +20,7 @@ export default function Navbar() {
   };
   return (
     <nav className="w-full fixed max-w-7xl mx-auto bg-footerBackgroundColor bg-opacity-50 left-0 top-0 ease-in duration-100 z-10">
-      <div className="flex justify-between px-28 md:items-center md:flex">
+      <div className="flex justify-between px-2 md:items-center md:flex">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
             <a>
