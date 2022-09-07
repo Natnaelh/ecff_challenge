@@ -36,12 +36,12 @@ export default function Navbar() {
         </div>
 
         <div>
-          <ul className="hidden items-center justify-center space-y-8 md:flex md:space-x-6 md:flex md:space-y-0">
+          <ul className="hidden items-center justify-center space-y-8  md:space-x-6 md:flex md:space-y-0">
             {NavLinks.map((link, index) => {
               return (
                 <li
                   key={index}
-                  className="text-white text-xl font-bold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline scroll:g-gray-300"
+                  className="text-white text-sm font-bold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline scroll:g-gray-300"
                 >
                   <Link href={link.path}>
                     <a>{link.title}</a>
