@@ -23,35 +23,33 @@ export default function Story() {
   ];
   return (
     <div className="my-10">
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col  justify-center items-center">
         <h2 className="text-black font-bold text-lg md:text-lg text-center my-2">
           HOW IT ALL BEGIN
         </h2>
         <h1 className="text-ecffBrown font-bold text-2xl md:text-5xl text-center my-2">
           Our Story
         </h1>
-        <p className="text-textblack text-left text-sm md:text-lg w-1/2 text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        <p className="text-textblack text-sm md:text-lg w-3/4 text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at
+          purus pharetra magna tempor egestas non id massa. Donec tristique dui
+          vel mauris ullamcorper finibus. Curabitur maximus, sapien nec congue
+          pellentesque, purus est iaculis mauris, vel sagittis enim magna at
+          erat.
         </p>
       </div>
 
       <div className="m-24">
-        <div className="flex flex-col md:grid ">
+        <div className="flex flex-col items-center md:grid ">
           <div className="odd:justify-self-end mb-10 md:mb-0">
             <div className="flex items-center w-96 h-96">
               <div className="hidden md:inline absolute left-1/2  w-0.5 h-96 bg-gray-600"></div>
               <div className="hidden md:inline absolute left-1/2 -ml-4 w-10 h-10 rounded-full border mr-24 border-gray-200 bg-red-700 p-5"></div>
-              <div className="hidden md:inline absolute left-1/2 ml-6 w-102 h-0.5 bg-gray-600"></div>
+              <div className="hidden md:inline absolute left-1/2 md:ml-6 w-102 h-0.5 bg-gray-600"></div>
               <div className="hidden md:inline absolute md:left-[30%] lg:left-[40%] py-5 px-10 bg-slate-200 rounded-full">
                 2001
               </div>
-              <div className="flex flex-col h-full">
+              <div className="flex flex-col items-center h-full">
                 <Image
                   src="/images/crcoffee.jpg"
                   width="1050px"

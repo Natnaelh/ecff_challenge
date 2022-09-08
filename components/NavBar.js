@@ -19,9 +19,9 @@ export default function Navbar() {
     setActive(!active);
   };
   return (
-    <nav className="w-full fixed max-w-7xl bg-footerBackgroundColor bg-opacity-50 left-0 top-0 ease-in duration-100 z-10">
-      <div className="flex justify-between px-28 md:items-center md:flex">
-        <div className="flex items-center justify-between py-3 md:py-5 md:block">
+    <nav className="relative w-full md:fixed bg-footerBackgroundColor bg-opacity-50 left-0 top-0 ease-in duration-100 z-10">
+      <div className="flex justify-between px-5 md:px-28 md:items-center md:flex">
+        <div className="flex items-center justify-between py-3 md:py-5 md:block space-x-5">
           <Link href="/">
             <a>
               <Image
@@ -35,13 +35,13 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div>
-          <ul className="hidden items-center justify-center space-y-8  md:space-x-6 md:flex md:space-y-0">
+        <div className="hidden md:inline">
+          <ul className="hidden items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             {NavLinks.map((link, index) => {
               return (
                 <li
                   key={index}
-                  className="text-white text-sm font-bold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline scroll:g-gray-300"
+                  className="text-white text-sm font-semibold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline scroll:g-gray-300"
                 >
                   <Link href={link.path}>
                     <a>{link.title}</a>
@@ -54,24 +54,24 @@ export default function Navbar() {
 
         <GiHamburgerMenu
           onClick={showMenu}
-          className="h-10 w-10 text-white block hamburger md:hidden focus:outline-none"
+          className="h-10 w-10 text-white block md:hidden focus:outline-none my-3 md:my-5 "
         />
         <ul
           className={
             active
-              ? "z-10 w-100 flex-col text-gray-700 text-xl flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden"
+              ? "absolute z-10 w-3/4 h-1/2 flex-col  text-white text-xl flex items-end  inset-0 uppercase bg-transparent-400 backdrop-blur-lg gap-8 p-8 md:hidden"
               : "hidden"
           }
         >
           <AiOutlineClose
             onClick={showMenu}
-            className="h-10 w-10 text-white block hamburger md:hidden focus:outline-none"
+            className="h-12 w-12 text-black text-3xl block hamburger md:hidden focus:outline-none"
           />
           {NavLinks.map((link, index) => {
             return (
               <li
                 key={index}
-                className="text-black text-xl font-bold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline "
+                className="text-white text-xl font-semibold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline "
               >
                 <Link href={link.path}>
                   <a>{link.title}</a>
